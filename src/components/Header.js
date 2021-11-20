@@ -1,17 +1,18 @@
-import PropType from 'prop-types'
 
-export const Header = ({title}) => {
+export const Header = ({title, aka}) => {
     return (
         <div>
-           <h1>{title}</h1>
+           <h1 style={headingStyle}>{title}</h1>
+           <h2>{aka}</h2>
         </div>
     )
 }
-    Header.defaultProps = {
-        title: "Cuisine Tracker",
-        countries: 15
-    }
+    // Header.defaultProps = {
+    //     title: "Fatboy's Paradise",
+    //     countries: 15
+    // }
 
-    Header.PropType = {
-        title: PropType.string
+    let headingStyle = {
+        color: 'yellow', backgroundColor: 'blue'
     }
+    
