@@ -1,9 +1,8 @@
 
-export const Header = ({title, aka}) => {
+export const Header = ({title}) => {
     return (
         <div>
-           <h1 style={headingStyle}>{title}</h1>
-           <h2>{aka}</h2>
+           <h1>{title}</h1>
         </div>
     )
 }
@@ -12,7 +11,8 @@ export const Header = ({title, aka}) => {
     //     countries: 15
     // }
 
-    let headingStyle = {
-        color: 'yellow', backgroundColor: 'blue'
-    }
+    // in line styleing with code extracted to variable double vs curly braces
+    // let headingStyle = {
+    //     color: 'yellow', backgroundColor: 'blue'
+    // }
     
