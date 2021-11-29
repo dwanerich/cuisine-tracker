@@ -1,9 +1,11 @@
+import { Button } from "./Button"
 
 export const Header = ({title}) => {
     return (
-        <div>
+        <header className='header'>
            <h1>{title}</h1>
-        </div>
+        <Button color='green' text='Hello' />
+        </header>
     )
 }
     // Header.defaultProps = {
