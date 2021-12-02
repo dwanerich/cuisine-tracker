@@ -4,7 +4,9 @@ export const Header = ({title}) => {
     return (
         <header className='header'>
            <h1>{title}</h1>
-        <Button color='green' text='Hello' />
+            <Button color='green' text='go' />
+        <Button color='yellow' text='slow' />
+            <Button color='red' text='stop' />
         </header>
     )
 }
