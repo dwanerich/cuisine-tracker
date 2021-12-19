@@ -10,6 +10,10 @@ export const Header = ({title}) => {
         </header>
     )
 }
+
+
+
+
     // Header.defaultProps = {
     //     title: "Fatboy's Paradise",
     //     countries: 15

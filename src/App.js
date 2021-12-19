@@ -25,7 +25,6 @@ function App() {
         reminder: true
       }
     ]
-
   )
 
   return (

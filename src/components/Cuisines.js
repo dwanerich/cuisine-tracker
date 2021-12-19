@@ -5,7 +5,7 @@ export const Cuisines = ({cuisines}) => {
     return (
         <>
             {cuisines.map((cuisine) => (
-                <h3 key={cuisine.id}>{cuisine.text}</h3>
+                <Cuisine key={cuisine.id} cuisine={cuisine} />
     ))}
         </>        
     )

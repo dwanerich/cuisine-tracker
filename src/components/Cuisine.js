@@ -1,9 +1,8 @@
-import React from 'react'
 
-export default function Cuisine() {
+export default function Cuisine({ cuisine }) {
     return (
-        <div>
-            
+        <div className='cuisine'>
+            <h3>{cuisine.text}</h3>
         </div>
     )
 }
